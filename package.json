@@ -1,0 +1,33 @@
+{
+    "name": "tder",
+    "version": "0.0.1",
+    "description": "small ASN1-DER and PEM parser in about 100 lines",
+    "license": "MIT",
+    "author": {
+        "name": "Tobias Nickel",
+        "url": "http://tnickel.de/"
+    },
+    "keywords": [
+        "DER",
+        "x509",
+        "ASN1",
+        "PEM"
+    ],
+
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/TobiasNickel/tder.git"
+    },
+    "bugs": {
+        "url": "https://github.com/TobiasNickel/tder/issues"
+    },
+    "homepage": "https://github.com/TobiasNickel/tder#readme",
+    "main": "index.js",
+    "files": [
+        "index.js",
+        "fieldNames.js",
+        "package.json",
+        "README.md",
+        "LICENSE"
+    ]
+}
