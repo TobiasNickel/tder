@@ -23,13 +23,17 @@ JqbaIVifYwqwNN+4lRxS3F5lNlA/il12IOgbRioLI62o8G0DaEUQgHNf8vSG
 `);
 asn1 = tder.interpreter.certInterpreter(asn1);
 // {
+//   "serial": "0bfdb4090ad7b5e640c30b16c9529a27",
 //   "issuer": {
 //     "countryName": "US",
 //     "organizationName": "DigiCert Inc",
 //     "organizationalUnitName": "www.digicert.com",
 //     "commonName": "DigiCert SHA2 Extended Validation Server CA"
 //   },
-//   "dueTime": {},
+//   "dueTime": {
+//     "notBefore": "1916-03-10T00:00:00.000Z",
+//     "notAfter": "1918-05-17T12:00:00.000Z"
+//   },
 //   "subject": {
 //     "businessCategory": "Private Organization",
 //     "jurisdictionCountryName": "US",
