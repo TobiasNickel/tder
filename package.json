@@ -1,6 +1,6 @@
 {
     "name": "tder",
-    "version": "0.0.4",
+    "version": "0.0.8",
     "description": "small ASN1-DER and PEM parser in about 100 lines",
     "license": "MIT",
     "author": {

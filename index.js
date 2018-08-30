@@ -229,6 +229,12 @@ function certInterpreter(info) {
 
 function parseUTC(utc) {
     var year = parseInt(utc.substr(0, 2));
+    var thisYear = new Date().getUTCFullYear();
+    if((thisYear-80)>(1900+year)){
+        year += 2000;
+    }else{
+        year += 1900;
+    }
     var month = -1 + parseInt(utc.substr(2, 2));
     var day = parseInt(utc.substr(4, 2));
     var hour = parseInt(utc.substr(6, 2));

@@ -30,9 +30,9 @@ asn1 = tder.interpreter.certInterpreter(asn1);
 //     "organizationalUnitName": "www.digicert.com",
 //     "commonName": "DigiCert SHA2 Extended Validation Server CA"
 //   },
-//   "dueTime": {
-//     "notBefore": "1916-03-10T00:00:00.000Z",
-//     "notAfter": "1918-05-17T12:00:00.000Z"
+//   "dueTime": {    
+//     "notBefore": "2016-03-10T00:00:00.000Z",
+//     "notAfter": "2018-05-17T12:00:00.000Z"
 //   },
 //   "subject": {
 //     "businessCategory": "Private Organization",
